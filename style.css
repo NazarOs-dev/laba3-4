@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar-nav .nav-link {
+    color: var(--bs-dark) !important;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link.active {
+    color: var(--bs-primary) !important;
+    font-weight: 500;
+}
